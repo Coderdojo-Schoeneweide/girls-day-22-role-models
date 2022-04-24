@@ -2,14 +2,24 @@
 ### Ein Girls Day 2022 Projekt
 
 #### Beitragen
-1. Projekt herunterladen (grüner "Code" Button und dann "Download Zip")
-2. Projekt entzippen
-3. **Showcase-Seite deines Vorbildes hinzufügen**: Datei "ada-lovelace.html" kopieren und den Namen deines Vorbildes als Dateinamen setzen. Deine Showcase-Datei für dein Vorbild anpassen.
-4. In "index.html" (die Startseite) die Seite für dein Vorbild verlinken
-5. **Bild deines Vorbildes hinzufügen**: Im Internet ein Bild von deinem Vorbild herunterladen und in den Projektordner kopieren. Bild umbenennen nach "vorname-nachname.png" (Name deines Vorbilds).
-6. In der Startseiten-Datei das Bild deines Vorbilds hinzufügen
-7. Optional: **Style spezifisch für deine Showcase-Seite hinzufügen**: Datei "ada-lovelace-style.css" kopieren und umbenennen nach "vorname-nachname-style.css" (Name deines Vorbilds). In deiner Showcase-Datei im `<head>` den Dateinamen der Style-Datei anpassen.
+1. Projekt auf Trinket (online Editor) öffnen: [https://trinket.io/html/f5336f7441](https://trinket.io/html/f5336f7441)
+2. **Showcase-Seite deines Vorbildes hinzufügen**:
+   1. Neue Datei "vorname-nachname.html" (Vorname und Nachname deines Vorbilds) für die Showcase-Seite erstellen
+   2. Inhalt der Datei "ada-lovelace.html" in deine Showcase-Seite kopieren
+   4. Deine Showcase-Seite für dein Vorbild anpassen
+3. In "index.html" (die Startseite) deine Showcase-Seite verlinken
+4. **Bild deines Vorbildes hinzufügen**: 
+   1. Im Internet ein Bild von deinem Vorbild herunterladen
+   2. Bild umbenennen nach "vorname-nachname.png" (Name deines Vorbilds)
+   3. Bild auf Trinket hochladen
+   4. In der Startseiten-Datei und in der Showcase-Seite das Bild deines Vorbilds hinzufügen
+5. Optional: **Style spezifisch für deine Showcase-Seite hinzufügen**: 
+   1. Neue Style-Datei "vorname-nachname-style.css" erstellen
+   2. Inhalt der Style-Datei "ada-lovelace-style.css" in deine Style-Datei kopieren
+   3. In deiner Showcase-Datei im `<head>` den Dateinamen der Style-Datei anpassen
+   4. Deine Style-Datei editieren
 
 **Fertig?** 
-1. Projektordner zippen (Windows: Rechtsklick auf den Ordner -> "senden an" -> "zip komprimierter Ordner")
-2. zip-Ordner per Mail an schoeneweide.berlin@coderdojo.com schicken (Betreff: Girls Day Webseite)
+1. Auf Trinket das Menü öffnen und deine Webseite herunterladen
+2. Gespeicherte Datei per Mail an schoeneweide.berlin@coderdojo.com schicken (Betreff: Girls Day Webseite)
+3. Wir fügen deinen Anteil zur Seite hinzu!

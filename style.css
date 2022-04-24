@@ -6,9 +6,9 @@
 
 .grid-container {
   display: grid;
-  gap: 2vw;
-  grid-template-columns: 31vw 31vw 31vw; /*vw = view width = seitenbreite -> 31vw = 31% der seitenbreite*/
-  grid-template-rows: 31vw 31vw 31vw;
+  gap: 1vh;
+  grid-template-columns: 31vh 31vh 31vh; /*vh = view height = Seitenhöhe -> 31vh = 31% der Seitenhöhe*/
+  grid-template-rows: 31vh 31vh 31vh;
 }
 
 .grid-item {
@@ -20,6 +20,12 @@
 
 .grid-item img {
   width: 100%;
+  object-fit: cover;
+}
+
+header {
+  font-size: 120%;
+  word-break: break-word;
 }
 
 .grid-item h1 {
@@ -34,11 +40,6 @@
   min-width: 50vw;
   max-width: 70vw;
   margin: 0 auto;
-}
-
-header {
-  font-size: 200%;
-  word-break: break-all;
 }
 
 nav {
