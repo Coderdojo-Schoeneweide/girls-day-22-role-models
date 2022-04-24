@@ -1,0 +1,65 @@
+*, html {
+  font-family: sans-serif;
+}
+
+/* Styles für die Startseite */
+
+.grid-container {
+  display: grid;
+  gap: 2vw;
+  grid-template-columns: 31vw 31vw 31vw; /*vw = view width = seitenbreite -> 31vw = 31% der seitenbreite*/
+  grid-template-rows: 31vw 31vw 31vw;
+}
+
+.grid-item {
+  background-color: #f2a23a; /*Das ist der "Hex-Code" der Farbe! Siehe https://colors-picker.com/hex-color-picker/ */
+  box-shadow: 0 0 7px #999;
+  border: 4px solid transparent;
+  overflow: hidden;
+}
+
+.grid-item img {
+  width: 100%;
+}
+
+.grid-item h1 {
+  margin: auto auto;
+  text-align: center;
+  color: #fff;
+}
+
+/* Styles für die Portraitseite */
+
+.showcase {
+  min-width: 50vw;
+  max-width: 70vw;
+  margin: 0 auto;
+}
+
+header {
+  font-size: 200%;
+  word-break: break-all;
+}
+
+nav {
+  position: fixed;
+  top: 1vw;
+  right: 1vw;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #f2a23a;
+  padding: 5px;
+}
+
+footer {
+  border-top: 1px dotted #999;
+  font-size: 80%;
+  color: #999;
+}
+
+footer a {
+  color: #999;
+}
